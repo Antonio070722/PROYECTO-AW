@@ -3,20 +3,24 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.getElementById('mobile-menu');
 
     if (!hamburger || !mobileMenu) {
+        console.warn('Menu hamburguesa: faltan elementos #hamburger o #mobile-menu.');
         return;
+    }
+
+    function closeMobileMenu() {
+        mobileMenu.classList.remove('active');
+        hamburger.classList.remove('active');
     }
 
     hamburger.addEventListener('click', function(event) {
         event.stopPropagation();
-        if (window.innerWidth <= 900) {
-            mobileMenu.classList.toggle('active');
-        }
+        mobileMenu.classList.toggle('active');
+        hamburger.classList.toggle('active');
     });
 
     document.addEventListener('click', function(event) {
-        if (window.innerWidth <= 900 && !hamburger.contains(event.target) && !mobileMenu.contains(event.target)) {
-            mobileMenu.classList.remove('active');
+        if (!hamburger.contains(event.target) && !mobileMenu.contains(event.target)) {
+            closeMobileMenu();
         }
     });
-});</content>
-<parameter name="filePath">c:\Users\anton\Music\PROYECTO-AW\assets\js\menu.js
+});
