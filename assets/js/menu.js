@@ -23,4 +23,43 @@ document.addEventListener('DOMContentLoaded', function() {
             closeMobileMenu();
         }
     });
+
+    // Animación fade-down con IntersectionObserver
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    const fadeDownElements = document.querySelectorAll('.fade-down');
+    fadeDownElements.forEach(function(element) {
+        observer.observe(element);
+    });
+
+    // Botón Volver arriba
+    const backToTop = document.getElementById('backToTop');
+    if (backToTop) {
+        function toggleBackToTop() {
+            if (window.scrollY > 120) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+        }
+
+        window.addEventListener('scroll', toggleBackToTop);
+        toggleBackToTop();
+
+        backToTop.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
 });

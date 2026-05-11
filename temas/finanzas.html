@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -21,18 +21,11 @@
                         <li><a href="tecnologia.html">Tecnología</a></li>
                         <li><a href="ia.html">IA</a></li>
                         <li><a href="finanzas.html">Finanzas</a></li>
-                    </ul>
-                </li>
-                <li class="desplegable">
-                    <a href="../articulos/articulosTodo.html">Artículos</a>
-                    <ul class="submenú">
-                        <li><a href="../articulos/articulo1.html">La Evolución de los Smartphones</a></li>
-                        <li><a href="../articulos/articulo2.html">Introducción a la IA Ética</a></li>
-                        <li><a href="../articulos/articulo3.html">Inversiones para Principiantes</a></li>
+                        <li><a href="todosTemas.html">Más temas</a></li>
                     </ul>
                 </li>
                 <li><a href="../about.html">Sobre nosotros</a></li>
-                <li><a href="../contacto.html">Contacto</a></li>
+                <li><a href="../Sugerencias.html">Contacto</a></li>
             </ul>
         </nav>
         <button id="hamburger" class="hamburger" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú de navegación">
@@ -44,47 +37,32 @@
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="todosTemas.html">Temas</a></li>
-                <li><a href="../articulos/articulosTodo.html">Artículos</a></li>
+                <li><a href="todosTemas.html">Más temas</a></li>
                 <li><a href="../about.html">Sobre nosotros</a></li>
-                <li><a href="../contacto.html">Contacto</a></li>
+                <li><a href="../Sugerencias.html">Contacto</a></li>
             </ul>
         </div>
     </header>
-    <main style="padding: 20px; font-family: 'Poppins', sans-serif; background-color: #fff; color: #000;">
+    <script type="module" src="https://widgets.tradingview-widget.com/w/es/tv-ticker-tape.js"></script>
+    <tv-ticker-tape 
+      symbols="FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,FX:EURUSD,BITSTAMP:BTCUSD,BITSTAMP:ETHUSD,CMCMARKETS:GOLD,NASDAQ:TSLA,NASDAQ:MSFT,NASDAQ:AAPL,NASDAQ:META,CAPITALCOM:US100,BBG:EUR,SP:SPX,OANDA:NAS100USD" 
+      show-hover>
+    </tv-ticker-tape>
+    <main class="theme-page" style="padding: 20px; font-family: 'Poppins', sans-serif; background-color: #fff; color: #000;">
         <h1 style="text-align: center;">Finanzas</h1>
-        <div style="display: flex; flex-direction: column; gap: 20px;">
-            <div style="background-color: #000; color: #fff; padding: 20px; border-radius: 8px;">
-                <h2>Historia de las Finanzas</h2>
-                <p>Las finanzas se remontan a la antigüedad con el trueque y el comercio. La banca moderna surgió en la Edad Media con los Medici en Italia, evolucionando hacia sistemas financieros globales en el siglo XX con la creación de bancos centrales, bolsas de valores y mercados internacionales.</p>
-            </div>
-            <div style="background-color: #000; color: #fff; padding: 20px; border-radius: 8px;">
-                <h2>Estado Actual de las Finanzas</h2>
-                <p>Actualmente, las finanzas están digitalizadas con criptomonedas, fintech y aplicaciones móviles. La globalización y la tecnología han hecho que los mercados sean más accesibles, pero también más volátiles, con desafíos como la inflación y la deuda soberana.</p>
-            </div>
-            <div style="background-color: #000; color: #fff; padding: 20px; border-radius: 8px;">
-                <h2>Futuro de las Finanzas</h2>
-                <p>El futuro incluye la integración de IA en inversiones automatizadas, monedas digitales estatales y finanzas sostenibles enfocadas en ESG (Environmental, Social, Governance). Se espera una mayor inclusión financiera global, pero con riesgos de ciberataques y desigualdad económica.</p>
-            </div>
-            <h2 style="text-align: center;">Subtemas en Finanzas</h2>
-            <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
-                <div style="background-color: #000; color: #fff; padding: 20px; border-radius: 8px; width: 300px;">
-                    <h3>Trading</h3>
-                    <p>El trading implica la compra y venta de activos financieros para obtener ganancias a corto plazo. Incluye estrategias como el day trading y el swing trading, utilizando análisis técnico y fundamental para predecir movimientos del mercado.</p>
-                </div>
-                <div style="background-color: #000; color: #fff; padding: 20px; border-radius: 8px; width: 300px;">
-                    <h3>Dropshipping</h3>
-                    <p>El dropshipping es un modelo de e-commerce donde el vendedor no mantiene inventario, sino que transfiere pedidos a proveedores que envían directamente al cliente. Es ideal para emprendedores con bajo capital inicial, pero requiere marketing efectivo y gestión de proveedores.</p>
-                </div>
-                <div style="background-color: #000; color: #fff; padding: 20px; border-radius: 8px; width: 300px;">
-                    <h3>Inversiones</h3>
-                    <p>Las inversiones implican asignar dinero a activos como acciones, bonos o bienes raíces con el objetivo de generar rendimientos a largo plazo. Estrategias incluyen diversificación, inversión pasiva y evaluación de riesgos para construir riqueza sostenible.</p>
-                </div>
+        <div class="theme-content">
+            <div class="theme-card">
+                <h2>Inversiones para Principiantes</h2>
+                <p>Consejos prácticos para comenzar a invertir con seguridad, entender el riesgo y construir una base financiera sólida.</p>
+                <a href="../articulos/articulo3.html" style="color: #007bff; text-decoration: none;">Saber más</a>
             </div>
         </div>
     </main>
     <footer style="background-color: #000; color: #fff; text-align: center; padding: 20px; font-family: 'Poppins', sans-serif;">
-        © AW — Todos los derechos reservados
+        © AW - HUB — Todos los derechos reservados | <a href="../Sugerencias.html" style="color: #fff;">Sugerencias</a>
     </footer>
 <script src="../assets/js/menu.js"></script>
 </body>
 </html>
+
+
