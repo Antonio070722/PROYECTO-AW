@@ -46,69 +46,71 @@
     <main style="padding: 20px; font-family: 'Poppins', sans-serif; background-color: #fff; color: #000;">
         <!-- Hero principal -->
         <section class="hero">
-            <div class="hero-inner">
+            <div class="hero-layout">
                 <div class="hero-left">
                     <h1>AW - HUB</h1>
                     <p>AW - HUB es un espacio dedicado a compartir ideas, aprendizaje y experiencias sobre innovación, creatividad, desarrollo personal y muchos más que puedes ver en:</p>
                     <a href="temas/todosTemas.html" class="hero-button">Explorar temas</a>
                 </div>
-                <div class="hero-right">
+                <div class="hero-center">
                     <img src="assets/img/img-fondo-inicio.png" alt="Imagen principal del hero">
+                </div>
+                <div class="hero-right">
+                    <div class="latest-articles">
+                        <h2>Últimos Artículos</h2>
+                        <div class="article-card fade-down">
+                            <h3>La Evolución de los Smartphones</h3>
+                            <p>Un recorrido por cómo los teléfonos inteligentes han cambiado nuestra forma de comunicarnos y trabajar.</p>
+                            <a href="articulos/articulo1.html" class="article-link">Leer más</a>
+                        </div>
+                        <div class="article-card fade-down">
+                            <h3>Introducción a la IA Ética</h3>
+                            <p>Explorando los principios éticos detrás del desarrollo de la inteligencia artificial.</p>
+                            <a href="articulos/articulo2.html" class="article-link">Leer más</a>
+                        </div>
+                        <div class="article-card fade-down">
+                            <h3>Inversiones para Principiantes</h3>
+                            <p>Guía básica para empezar a invertir de manera segura y rentable.</p>
+                            <a href="articulos/articulo3.html" class="article-link">Leer más</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Qué puedes encontrar aquí -->
         <section class="what-you-find">
-            <h2 style="text-align: center; margin-bottom: 20px;">Qué Puedes Encontrar Aquí</h2>
-            <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-                <div class="card fade-down">
-                    <h3>Tecnología</h3>
-                    <p>Descubre las últimas innovaciones y tendencias que están transformando nuestro mundo digital.</p>
-                    <a href="temas/tecnologia.html" style="color: #007bff; text-decoration: none;">Leer más</a>
+            <h2 class="section-title">Qué Puedes Encontrar Aquí</h2>
+            <div class="que-carousel">
+                <button class="que-arrow que-prev" aria-label="Anterior">◄</button>
+                <div class="que-track" id="queTrack">
+                    <div class="que-card fade-down">
+                        <h3>Tecnología</h3>
+                        <p>Descubre las últimas innovaciones y tendencias que están transformando nuestro mundo digital.</p>
+                        <a href="temas/tecnologia.html" class="card-link">Leer más</a>
+                    </div>
+                    <div class="que-card fade-down">
+                        <h3>Inteligencia Artificial</h3>
+                        <p>Aprende sobre IA, desde sus fundamentos hasta aplicaciones prácticas en la vida cotidiana.</p>
+                        <a href="temas/ia.html" class="card-link">Leer más</a>
+                    </div>
+                    <div class="que-card fade-down">
+                        <h3>Finanzas</h3>
+                        <p>Explora estrategias financieras, inversiones y consejos para gestionar tu dinero de forma inteligente.</p>
+                        <a href="temas/finanzas.html" class="card-link">Leer más</a>
+                    </div>
+                    <div class="que-card fade-down">
+                        <h3>Programación</h3>
+                        <p>Descubre fundamentos de código, herramientas y buenas prácticas para crear software práctico y moderno.</p>
+                        <a href="Progr.html" class="card-link">Leer más</a>
+                    </div>
+                    <div class="que-card fade-down">
+                        <h3>Muchos temas más</h3>
+                        <p>Explora aún más contenidos sobre el mundo actual, tendencias, ideas y conocimientos que ampliarán tu perspectiva.</p>
+                        <a href="temas/todosTemas.html" class="card-link">Leer más</a>
+                    </div>
                 </div>
-                <div class="card fade-down">
-                    <h3>Inteligencia Artificial</h3>
-                    <p>Aprende sobre IA, desde sus fundamentos hasta aplicaciones prácticas en la vida cotidiana.</p>
-                    <a href="temas/ia.html" style="color: #007bff; text-decoration: none;">Leer más</a>
-                </div>
-                <div class="card fade-down">
-                    <h3>Finanzas</h3>
-                    <p>Explora estrategias financieras, inversiones y consejos para gestionar tu dinero de forma inteligente.</p>
-                    <a href="temas/finanzas.html" style="color: #007bff; text-decoration: none;">Leer más</a>
-                </div>
-                <div class="card fade-down">
-                    <h3>Programación</h3>
-                    <p>Descubre fundamentos de código, herramientas y buenas prácticas para crear software práctico y moderno.</p>
-                    <a href="Progr.html" style="color: #007bff; text-decoration: none;">Leer más</a>
-                </div>
-                <div class="card fade-down">
-                    <h3>Muchos temas más</h3>
-                    <p>Explora aún más contenidos sobre el mundo actual, tendencias, ideas y conocimientos que ampliarán tu perspectiva.</p>
-                    <a href="temas/todosTemas.html" style="color: #007bff; text-decoration: none;">Leer más</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Últimos artículos -->
-        <section class="latest-articles">
-            <h2 style="text-align: center; margin-bottom: 20px;">Últimos Artículos</h2>
-            <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-                <div class="article-card fade-down">
-                    <h3>La Evolución de los Smartphones</h3>
-                    <p>Un recorrido por cómo los teléfonos inteligentes han cambiado nuestra forma de comunicarnos y trabajar.</p>
-                    <a href="articulos/articulo1.html" style="color: #007bff; text-decoration: none;">Leer más</a>
-                </div>
-                <div class="article-card fade-down">
-                    <h3>Introducción a la IA Ética</h3>
-                    <p>Explorando los principios éticos detrás del desarrollo de la inteligencia artificial.</p>
-                    <a href="articulos/articulo2.html" style="color: #007bff; text-decoration: none;">Leer más</a>
-                </div>
-                <div class="article-card fade-down">
-                    <h3>Inversiones para Principiantes</h3>
-                    <p>Guía básica para empezar a invertir de manera segura y rentable.</p>
-                    <a href="articulos/articulo3.html" style="color: #007bff; text-decoration: none;">Leer más</a>
-                </div>
+                <button class="que-arrow que-next" aria-label="Siguiente">►</button>
             </div>
         </section>
 
@@ -122,6 +124,61 @@
         © AW - HUB — Todos los derechos reservados | <a href="Sugerencias.html" style="color: #fff;">Sugerencias</a>
     </footer>
 <script src="assets/js/menu.js"></script>
+<script>
+    const queTrack = document.getElementById('queTrack');
+    const prevArrow = document.querySelector('.que-prev');
+    const nextArrow = document.querySelector('.que-next');
+    if (queTrack && prevArrow && nextArrow) {
+        const getCardSize = () => {
+            const card = queTrack.querySelector('.que-card');
+            const gap = parseInt(getComputedStyle(queTrack).gap, 10) || 24;
+            return card ? card.offsetWidth + gap : 324;
+        };
+
+        let autoScrollTimer;
+        let pauseTimer;
+
+        const scrollStep = (direction = 1) => {
+            const step = getCardSize() * direction;
+            const maxScroll = queTrack.scrollWidth - queTrack.clientWidth;
+            let next = queTrack.scrollLeft + step;
+            if (direction > 0 && next > maxScroll + 5) {
+                next = 0;
+            }
+            if (direction < 0 && next < 0) {
+                next = maxScroll;
+            }
+            queTrack.scrollTo({ left: next, behavior: 'smooth' });
+        };
+
+        const pauseAutoScroll = () => {
+            clearInterval(autoScrollTimer);
+            clearTimeout(pauseTimer);
+            pauseTimer = setTimeout(() => {
+                autoScrollTimer = setInterval(() => scrollStep(1), 3600);
+            }, 5000);
+        };
+
+        prevArrow.addEventListener('click', () => {
+            scrollStep(-1);
+            pauseAutoScroll();
+        });
+
+        nextArrow.addEventListener('click', () => {
+            scrollStep(1);
+            pauseAutoScroll();
+        });
+
+        queTrack.addEventListener('scroll', () => {
+            clearTimeout(pauseTimer);
+            pauseTimer = setTimeout(() => {
+                autoScrollTimer = setInterval(() => scrollStep(1), 3600);
+            }, 5000);
+        }, { passive: true });
+
+        autoScrollTimer = setInterval(() => scrollStep(1), 3600);
+    }
+</script>
     <button id="backToTop" class="back-to-top" aria-label="Volver arriba">↑</button>
 </body>
 </html>
