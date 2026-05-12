@@ -19,11 +19,11 @@
 <body>
     <header>
         <a href="index.html" class="logo-link">
-            <img src="assets/img/logo.png" alt="AW HUB Logo" class="logo" width="40" height="40">
+            <img src="assets/img/logo.png" alt="Logo" class="logo">
         </a>
         <nav>
             <ul>
-                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li class="desplegable">
                     <a href="temas/todosTemas.html">Temas</a>
                     <ul class="submenú">
@@ -37,8 +37,10 @@
                 <li><a href="Sugerencias.html">Contacto</a></li>
             </ul>
         </nav>
-        <button id="hamburger" class="hamburger" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú">
-            <span></span><span></span><span></span>
+        <button id="hamburger" class="hamburger" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú de navegación">
+            <span></span>
+            <span></span>
+            <span></span>
         </button>
         <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
             <ul>
@@ -59,7 +61,7 @@
                     <h1>Aprendizaje sin complicaciones</h1>
                     <p>Tecnología, inteligencia artificial y finanzas explicadas con claridad. Contenido práctico para mentes curiosas que quieren entender el presente y construir el futuro.</p>
                     <div class="hero-buttons">
-                        <a href="temas/todosTemas.html" class="btn btn-primary">Explorar temas →</a>
+                        <a href="temas/todosTemas.html" class="btn btn-primary">Explorar temas ?</a>
                         <a href="about.html" class="btn btn-secondary">Conoce más</a>
                     </div>
                 </div>
@@ -68,21 +70,21 @@
                 </div>
                 <div class="hero-latest">
                     <div class="latest-panel">
-                        <h2>📌 Últimos artículos</h2>
+                        <h2>?? Últimos artículos</h2>
                         <div class="article-card">
-                            <h3>📱 Evolución de los Smartphones</h3>
+                            <h3>?? Evolución de los Smartphones</h3>
                             <p>Desde el DynaTAC hasta los plegables, cómo han cambiado nuestra vida.</p>
-                            <a href="articulos/articulo1.html" class="article-link">Leer más →</a>
+                            <a href="articulos/articulo1.html" class="article-link">Leer más ?</a>
                         </div>
                         <div class="article-card">
-                            <h3>🤖 Introducción a la IA Ética</h3>
+                            <h3>?? Introducción a la IA Ética</h3>
                             <p>Principios de transparencia, equidad y privacidad en sistemas de IA.</p>
-                            <a href="articulos/articulo2.html" class="article-link">Leer más →</a>
+                            <a href="articulos/articulo2.html" class="article-link">Leer más ?</a>
                         </div>
                         <div class="article-card">
-                            <h3>📈 Inversiones para Principiantes</h3>
+                            <h3>?? Inversiones para Principiantes</h3>
                             <p>Guía paso a paso para empezar a invertir sin miedo.</p>
-                            <a href="articulos/articulo3.html" class="article-link">Leer más →</a>
+                            <a href="articulos/articulo3.html" class="article-link">Leer más ?</a>
                         </div>
                     </div>
                 </div>
@@ -92,37 +94,37 @@
         <!-- Carrusel de temas (Qué puedes encontrar aquí) -->
         <section class="what-you-find">
             <div class="container">
-                <h2 class="section-title">✨ Qué puedes encontrar aquí</h2>
+                <h2 class="section-title">? Qué puedes encontrar aquí</h2>
                 <div class="que-carousel">
-                    <button class="que-arrow que-prev" aria-label="Anterior">◄</button>
+                    <button class="que-arrow que-prev" aria-label="Anterior">?</button>
                     <div class="que-track" id="queTrack">
                         <div class="que-card">
-                            <h3>💻 Tecnología</h3>
+                            <h3>?? Tecnología</h3>
                             <p>Innovaciones, gadgets y tendencias digitales que transforman el mundo.</p>
-                            <a href="temas/tecnologia.html" class="card-link">Descubrir →</a>
+                            <a href="temas/tecnologia.html" class="card-link">Descubrir ?</a>
                         </div>
                         <div class="que-card">
-                            <h3>🧠 Inteligencia Artificial</h3>
+                            <h3>?? Inteligencia Artificial</h3>
                             <p>Desde redes neuronales hasta ética, aprende IA de forma amigable.</p>
-                            <a href="temas/ia.html" class="card-link">Descubrir →</a>
+                            <a href="temas/ia.html" class="card-link">Descubrir ?</a>
                         </div>
                         <div class="que-card">
-                            <h3>💰 Finanzas</h3>
+                            <h3>?? Finanzas</h3>
                             <p>Estrategias de inversión, ahorro inteligente y educación financiera.</p>
-                            <a href="temas/finanzas.html" class="card-link">Descubrir →</a>
+                            <a href="temas/finanzas.html" class="card-link">Descubrir ?</a>
                         </div>
                         <div class="que-card">
-                            <h3>🐍 Programación</h3>
+                            <h3>?? Programación</h3>
                             <p>Fundamentos de código, herramientas prácticas y proyectos reales.</p>
-                            <a href="Progr.html" class="card-link">Descubrir →</a>
+                            <a href="Progr.html" class="card-link">Descubrir ?</a>
                         </div>
                         <div class="que-card">
-                            <h3>📚 Mucho más</h3>
+                            <h3>?? Mucho más</h3>
                             <p>Desarrollo personal, productividad y mucho contenido en camino.</p>
-                            <a href="temas/todosTemas.html" class="card-link">Explorar todo →</a>
+                            <a href="temas/todosTemas.html" class="card-link">Explorar todo ?</a>
                         </div>
                     </div>
-                    <button class="que-arrow que-next" aria-label="Siguiente">►</button>
+                    <button class="que-arrow que-next" aria-label="Siguiente">?</button>
                 </div>
             </div>
         </section>
@@ -131,14 +133,14 @@
         <section class="mission-section">
             <div class="container mission-box">
                 <div class="mission-quote">
-                    <span class="quote-icon">“</span>
+                    <span class="quote-icon">"</span>
                     <p>Democratizar el conocimiento, sin jergas técnicas ni barreras. Que cualquier persona pueda entender cómo funciona el mundo digital y financiero.</p>
                     <footer>— AW, creador de AW HUB</footer>
                 </div>
                 <div class="mission-text">
                     <h2>¿Por qué nació este proyecto?</h2>
                     <p>Porque aprender sobre tecnología, IA y finanzas no debería ser aburrido ni intimidante. Aquí encontrarás explicaciones claras, ejemplos cotidianos y una comunidad de curiosos que creen en el poder de la educación accesible. Cada artículo está pensado para que <strong>tú tomes acción</strong>.</p>
-                    <a href="about.html" class="btn-outline">Conoce más sobre mí →</a>
+                    <a href="about.html" class="btn-outline">Conoce más sobre mí ?</a>
                 </div>
             </div>
         </section>
@@ -159,7 +161,7 @@
         </div>
     </footer>
 
-    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">↑</button>
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">?</button>
 
     <script src="assets/js/menu.js"></script>
     <script>
@@ -196,3 +198,7 @@
     </script>
 </body>
 </html>
+
+
+
+
